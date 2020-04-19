@@ -23,7 +23,8 @@ header ul {
 #nav-drawer {
     display: none;
     float: right;
-    margin: 30px;
+    margin-top: 30px;
+    margin-right: 20px;
 }
 
 /*チェックボックス等は非表示に*/
