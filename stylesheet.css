@@ -143,13 +143,9 @@ hr {
     margin-top: 0;
 }
 
-.information img {
-    width: 600px;
-    height: auto;
-}
 
 .heading h1 {
-    font-weight: lighter;
+    font-weight: bold;
     padding: 0;
     margin: 0;
 }
@@ -161,14 +157,19 @@ hr {
 .cast-list p {
     margin: 0;
     padding: 0;
-｝
-    
+}
+
 @media only screen and (min-width:600px) {
     .copy-container {
         width: 600px;
     }
-}
 
+    .information img {
+        width: 600px;
+        height: auto;
+    }
+    
+}
 
 @media only screen and (max-width:600px) {
     .header-list {
@@ -186,12 +187,17 @@ hr {
         padding: 100px 0px;
     }
     .copy-container {
-        width: 450px;
         margin: 0 auto;
     }
 
-    .copy-container img {
-        width: 450px;
-    }
-    
-}
+    .image {
+        padding: 0;
+        margin: 0 auto;
+      }
+  
+      .image img {
+        max-width: 100%;
+        height: auto;
+        width /***/:auto;
+      }
+  }
