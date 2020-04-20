@@ -122,7 +122,6 @@ main{
     color: white;
 }
 .copy-container {
-    width: 600px;
     margin: 0 auto;
 }
 
@@ -162,7 +161,14 @@ hr {
 .cast-list p {
     margin: 0;
     padding: 0;
+｝
+    
+@media only screen and (min-width:600px) {
+    .copy-container {
+        width: 600px;
+    }
 }
+
 
 @media only screen and (max-width:600px) {
     .header-list {
